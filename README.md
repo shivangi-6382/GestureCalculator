@@ -4,14 +4,16 @@ A real-time **gesture-controlled calculator** built using **Python**, **OpenCV**
 # How It Works
 - Uses hand tracking to detect **fingers as digit and operation**
 - **Gesture combinations** are mapped to:
-   -- One Hand : 0 - 5 fingers --> 0-5 dgits
-   -- Two Hand: 5 + 1 fingers--> "+"
-                5 + 2 fingers--> "-"
-                5 + 3 fingers--> "*"
-                5 + 4 fingers--> "/"
-                2 + 2 fingers--> "delete"
-                5 + 5 fingers-->" clear"
-                0 + 0 fingers--> "="
+   -- One Hand :
+      -0 - 5 fingers --> 0-5 dgits
+   -- Two Hand:
+      - 5 + 1 fingers--> "+"
+      - 5 + 2 fingers--> "-"
+      - 5 + 3 fingers--> "*"
+      - 5 + 4 fingers--> "/"
+      - 2 + 2 fingers--> "delete"
+      - 5 + 5 fingers-->" clear"
+      - 0 + 0 fingers--> "="
 ---
   ##  Features
 
